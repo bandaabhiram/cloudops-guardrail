@@ -1,0 +1,26 @@
+# Terraform local stuff
+**/.terraform/
+**/.terraform.lock.hcl
+**/tfplan
+**/tfplan.json
+
+# Reports (keep only latest or none)
+reports/*
+
+# OS/editor
+.DS_Store
+*.swp
+*.tmp
+# Terraform local stuff
+**/.terraform/
+**/.terraform.lock.hcl
+**/tfplan
+**/tfplan.json
+
+# Reports (keep only latest or none)
+reports/*
+
+# OS/editor
+.DS_Store
+*.swp
+*.tmp
