@@ -1,8 +1,3 @@
-## Results (example run)
+A portable CloudOps Security Guardrail built on a Raspberry Pi to statically analyse Azure Terraform Infrastructure-as-Code using Checkov, Trivy, and custom Azure security policies.
 
-**Checkov**
-- GOOD: Passed checks: 18, Failed checks: 0
-- BAD:  Passed checks: 7,  Failed checks: 10
-
-**Trivy config**
-- BAD: Failures: 4 (HIGH: 1, CRITICAL: 3)
+This project demonstrates how cloud security guardrails can be enforced before deployment, aligning with Azure Security Benchmark, Zero Trust, and AZ-500 exam objectives.
