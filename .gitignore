@@ -1,24 +1,18 @@
+# Python cache
+**/__pycache__/
+*.pyc
+
 # Terraform local stuff
 **/.terraform/
 **/.terraform.lock.hcl
 **/tfplan
 **/tfplan.json
 
-# Reports (keep only latest or none)
+# Reports (don’t commit every run)
 reports/*
 
-# OS/editor
-.DS_Store
-*.swp
-*.tmp
-# Terraform local stuff
-**/.terraform/
-**/.terraform.lock.hcl
-**/tfplan
-**/tfplan.json
-
-# Reports (keep only latest or none)
-reports/*
+# SARIF / scan artifacts if generated outside iac folder
+results.sarif
 
 # OS/editor
 .DS_Store
